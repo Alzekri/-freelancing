@@ -6,7 +6,7 @@
       <p class="mb-3">
         Lorem ipsum dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem
         ipsum dolor site Lorem ipsum dolor site Lorem ipsum dolor siteLorem
-        ipsum dolor 
+        ipsum dolor
       </p>
       <base-button
         >Get Started

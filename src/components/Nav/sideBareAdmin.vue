@@ -3,27 +3,26 @@
     <div class="row mb-5"><h4>LOGO</h4></div>
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
-        <base-button class="py-3 pe-5" mode="dark" link="true" to="dashboard">
-          <FIcons
-            class="rounded-pill ms-2 me-4"
-            :icon="['fas', 'gear']"
-          />Dashboard
-        </base-button>
+        <router-link to="dashboard">
+          <base-button class="py-3 pe-5" mode="dark">
+            <FIcons
+              class="rounded-pill ms-2 me-4"
+              :icon="['fas', 'gear']"
+            />Dashboard
+          </base-button>
+        </router-link>
       </div>
     </div>
-    <div class="row IconDashboard mb-5">
-      <div class="col-12 text-start mt-5 mb-5">
-        <base-button
-          class="py-3 pe-5 mb-5"
-          mode="dark"
-          link="true"
-          to="manager"
-        >
-          <FIcons
-            class="rounded-pill ms-2 me-4"
-            :icon="['fas', 'user-group']"
-          />Managers
-        </base-button>
+    <div class="row IconDashboard">
+      <div class="col-12 text-start mt-5">
+        <router-link to="manager">
+          <base-button class="py-3 pe-5 mb-5" mode="ligh">
+            <FIcons
+              class="rounded-pill ms-2 me-4"
+              :icon="['fas', 'user-group']"
+            />Managers
+          </base-button>
+        </router-link>
       </div>
     </div>
 

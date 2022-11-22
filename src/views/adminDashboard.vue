@@ -5,7 +5,7 @@
       <div class="row">
         <NavBarAdmin />
       </div>
-      <router-view />
+      <div><router-view></router-view></div>
     </div>
   </div>
 </template>
