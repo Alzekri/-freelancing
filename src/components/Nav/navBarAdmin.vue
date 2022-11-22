@@ -1,7 +1,7 @@
 <template>
   <div class="col-7 mt-4 ps-5">
     <h3 class="fw-bold">ADMIN DASHBOARD</h3>
-    <p class="text-black-50">WELCOME, DR.AHMED ALTAHIR</p>
+    <p class="text-black-50">WELCOME, DR.Ali ALTAHIR</p>
   </div>
   <div class="col-5 text-end mt-4 pe-5">
     <base-button class="py-3" mode="dark" @click="isAdd = !isAdd"
