@@ -1,14 +1,23 @@
 <template>
   <div class="row">
     <div class="col-md-7"><router-view></router-view></div>
-    <div class="col-md-5 col-img"></div>
+    <div class="col-md-5 col-img">
+      <img src="../assets/LandingImage1svg.svg" alt="" />
+    </div>
   </div>
 </template>
 <style lang="scss">
-body {
-}
 .col-img {
   height: 100vh;
-  background-image: url(../assets/LandingImage2svg.svg);
+  background-color: #e2dcc8;
+  padding: {
+    top: 13.5%;
+  }
+}
+
+img {
+  height: 20rem;
+  width: 20rem;
+  margin-left: 30%;
 }
 </style>
