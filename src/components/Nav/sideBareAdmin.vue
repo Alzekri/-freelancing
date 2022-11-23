@@ -4,7 +4,7 @@
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
         <router-link to="dashboard">
-          <base-button class="py-3 pe-5" mode="dark">
+          <base-button class="py-3 pe-5" mode="">
             <FIcons
               class="rounded-pill ms-2 me-4"
               :icon="['fas', 'gear']"
@@ -16,11 +16,11 @@
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
         <router-link to="manager">
-          <base-button class="py-3 pe-5 mb-5" mode="ligh">
+          <base-button class="py-3 pe-5 px- mb-5" mode="  ">
             <FIcons
               class="rounded-pill ms-2 me-4"
               :icon="['fas', 'user-group']"
-            />Managers
+            />Manager
           </base-button>
         </router-link>
       </div>
