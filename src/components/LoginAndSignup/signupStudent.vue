@@ -1,5 +1,5 @@
 <template>
-  <div class="row ms-4 mt-2">
+  <div class="row ms-4 mt-2 pt-5 mt-4">
     <form action="#">
       <h3 class="fw-bold mb-2">
         Welcome TO<br />
@@ -49,9 +49,9 @@
         />
       </div>
       <div class="d-grid">
-        <button class="btn text-light fw-bold py-2 mt-2">Sign up</button>
+        <button class="btn text-light fw-bold py-2 mt-2 mb-3">Sign up</button>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-1">
         <span class="text-black-50 col-md-5 text-end">
           Already have an account?
         </span>
@@ -70,7 +70,7 @@
   color: #063535;
 }
 form {
-  max-width: 75%;
+  padding-left: 12rem;
   p {
     color: #063535;
   }
