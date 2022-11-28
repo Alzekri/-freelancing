@@ -7,6 +7,7 @@ import loginview from "../views/loginAndSignup.vue";
 import loginForm from "../components/LoginAndSignup/loginForm.vue";
 import signupStudent from "../components/LoginAndSignup/signupStudent.vue";
 import signupClient from "../components/LoginAndSignup/signupClient.vue";
+import clientView from "../views/clientView.vue";
 
 const routes = [
   //Landing
@@ -33,6 +34,12 @@ const routes = [
       { path: "signups", component: signupStudent },
       { path: "signupc", component: signupClient },
     ],
+  },
+  //Client
+  {
+    path: "/client",
+    component: clientView,
+    children: [],
   },
 ];
 
