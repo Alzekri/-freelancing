@@ -20,15 +20,13 @@
               >My Projects</a
             >
           </li>
-          <li class="nav-item">
+          <li class="nav-item ms-3">
             <a class="nav-link active" aria-current="page" href="#"
               >Request Project</a
             >
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Profile</a>
-          </li>
-          <li class="nav-item">
+
+          <li class="nav-item ms-3">
             <a class="nav-link active" aria-current="page" href="#"
               >Contact Us</a
             >
