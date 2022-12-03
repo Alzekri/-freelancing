@@ -1,5 +1,5 @@
 <template>
-  <div class="row ms-4 mt-2 pt-5 mt-4">
+  <div class="row ms-4 mt-2 pt-5 mt-4 me-0">
     <form action="#">
       <h3 class="fw-bold mb-2">
         Welcome TO<br />

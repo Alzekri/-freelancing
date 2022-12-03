@@ -1,5 +1,5 @@
 <template>
-  <div class="row bg-white m-4 mx-5 p-3">
+  <div class="row bg-white m-4 mx-5 p-3 me-0">
     <div class="col-md-3 mb-2">
       <div class="progressdiv rounded-4 p-3 pt-4">
         <h6 class="fw-bold ms-1">Progress</h6>
@@ -52,7 +52,7 @@
 
     <div class="col-md-5 mb-2">
       <div class="progressdiv rounded-4 p-3">
-        <h6 class="fw-bold ms-1">Project details</h6>
+        <h6 class="fw-bold ms-1">Project team</h6>
         <div class="bg-light rounded-4 p-2">
           <img src="@/assets/man1.png" alt="" class="mt-1 imgmanager" />
           <dl class="text-center">
@@ -139,7 +139,7 @@
 
     <div class="col-md-5 mb-2">
       <div class="progressdiv2 rounded-4 p-3">
-        <h6 class="fw-bold ms-1">Project details</h6>
+        <h6 class="fw-bold ms-1">Project team</h6>
         <div class="bg-light rounded-4 p-2">
           <img src="@/assets/man1.png" alt="" class="mt-1 imgmanager" />
           <dl class="text-center">

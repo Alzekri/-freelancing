@@ -27,7 +27,6 @@ export default {
 </script>
     <style scoped lang="scss">
 .main_row {
-  margin-right: 0;
   padding: 4rem;
   background-color: #f1f1f1;
 }

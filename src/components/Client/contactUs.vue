@@ -2,28 +2,21 @@
   <div class="row me-0">
     <div class="text-center">
       <img src="@/assets/LandingImage1svg.svg" class="me-5 mx-5" alt="" />
-      <h1>Request your project now</h1>
-      <p class="text-black-50 mx-5">
-        Enter project title and briefly describe the requirements and the
-        functionality
-      </p>
+      <dt>
+        <h1>Contact us now I need help</h1>
+        <dl class="text-black-50 mx-5">
+          write down your problem and we will help you as soon as possible
+        </dl>
+      </dt>
     </div>
     <div>
-      <form action="#" class="m-auto">
-        <label class="ms-3 fw-bold">Project title</label>
-        <input
-          type="text"
-          class="form-control ms-3 mt-2 py-2"
-          id="email"
-          placeholder="Enter project title"
-          name="Email"
-        />
-        <label class="ms-3 fw-bold mt-2">Description</label>
+      <form action="#" @click.prevent class="m-auto">
+        <label class="ms-3 fw-bold mt">Problem</label>
         <textarea
           class="form-control ms-3"
           rows="7"
           id=""
-          placeholder="Describe what you want in your project"
+          placeholder="Describe your problem"
         ></textarea>
         <div class="d-grid ms-4">
           <base-button
@@ -39,7 +32,7 @@
       <div class="modal-content">
         <h4 class="text-center fw-bold my-4">Thank you</h4>
         <h6 class="text-black-50">
-          We will review your request and contact you soon stay tuned
+          We will review your problem and contact you soon stay tuned
         </h6>
 
         <!-- Modal body -->
@@ -52,7 +45,7 @@
     </div>
   </div>
 </template>
-<script>
+  <script>
 import BaseButton from "../UI/BaseButton.vue";
 export default {
   components: { BaseButton },
@@ -63,7 +56,7 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped>
+  <style lang="scss" scoped>
 img {
   height: 13rem;
   width: 13rem;

@@ -18,7 +18,7 @@
         <router-link to="manager">
           <base-button class="py-3 pe-5 px- mb-5" mode="  ">
             <FIcons
-              class="rounded-pill ms-2 me-4"
+              class="rounded-pill ms-3 me-4"
               :icon="['fas', 'user-group']"
             />Manager
           </base-button>

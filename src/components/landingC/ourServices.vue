@@ -2,8 +2,14 @@
   <div class="text-center py-4"><h3>OUR SERVICES</h3></div>
 
   <div class="row main_row_1">
-    <div class="col-md-6 text-center pt-5 pe-5">
-      <img src="@/assets/LandingImage2svg.svg" class="img-fluid" alt="" />
+    <div class="col-md-6 pt-5 pe-5">
+      <div class="pe-5">
+        <img
+          src="@/assets/LandingImage2svg.svg"
+          class="img-fluid pe-5"
+          alt=""
+        />
+      </div>
     </div>
     <div class="col-md-6 welcome1 pt-5 pe-5">
       <h3 class="pt-5">WEB DEVELOPMENT</h3>
@@ -43,8 +49,8 @@
     </div>
   </div>
   <div class="row main_row_3 text-light">
-    <div class="col-md-6 text-center p-5">
-      <img src="@/assets/img4.png" class="img-fluid" alt="" />
+    <div class="col-md-6 pe-5 py-5">
+      <img src="@/assets/img4.png" class="img-fluid pe-5" alt="" />
     </div>
 
     <div class="col-md-6 welcome1 pt-5 pe-5">
@@ -78,8 +84,6 @@ img {
   width: 30rem;
 }
 .main_row_1 {
-  margin-right: 0;
-
   background-color: #e2dcc8;
 }
 .main_row_2 {

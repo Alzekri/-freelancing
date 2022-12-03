@@ -1,5 +1,5 @@
 <template>
-  <div class="row m-2"><h4>LOGO</h4></div>
+  <div class="row m-2 me-0"><h4>LOGO</h4></div>
   <div class="row row_form text-align-items-center">
     <form action="#" class="m-auto">
       <h1 class="text-center fw-bold mb-4">Welcome back</h1>

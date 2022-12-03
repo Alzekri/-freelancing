@@ -39,10 +39,6 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-body {
-  margin: 0;
-  padding: 0;
-}
 .navbar {
   height: 3rem;
   font-weight: 700;
