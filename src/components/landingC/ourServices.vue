@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center py-4"><h3>OUR SERVICES</h3></div>
+  <div class="text-center py-4" id="services"><h3>OUR SERVICES</h3></div>
 
   <div class="row main_row_1">
     <div class="col-md-6 pt-5 pe-5">

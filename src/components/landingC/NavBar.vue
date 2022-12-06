@@ -1,46 +1,77 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand ms-5" href="#">LOGO</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
-          <li class="nav-item ms-5">
-            <a class="nav-link active" aria-current="page" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"
-              >Contact Us</a
-            >
-          </li>
-        </ul>
-
-        <button class="btn btn-outline-light round px-3 py-1" type="submit">
-          Login
+  <div class="row">
+    <nav class="navbar navbar-expand-lg fixed-top fw-bold">
+      <div class="container">
+        <div class="text-light col-2">
+          <h4>LOGO</h4>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <FIcons class="icon" :icon="['fas', 'bars']" />
         </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav col-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services"
+                >Services</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#footer"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+
+          <div class="col-9 text-end">
+            <button class="btn btn-outline-light round px-3 py-1" type="submit">
+              Login
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </template>
 <script>
 export default {
   name: "NavBar",
-  methods: {},
 };
 </script>
 <style scoped lang="scss">
+h4 {
+  position: fixed;
+  top: 0.7rem;
+  left: 1rem;
+}
+
 .navbar {
-  height: 3rem;
-  font-weight: 700;
+  background-color: black;
+
+  .navbar-toggler {
+    border: 1px solid rgb(163, 221, 178);
+  }
+  .navbar-nav {
+    .nav-link {
+      color: white;
+    }
+  }
+}
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:active,
+.navbar .navbar-nav .nav-link:hover {
+  color: #33d1cc;
+}
+
+.icon {
+  color: #33d1cc;
 }
 </style>

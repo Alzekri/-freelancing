@@ -1,5 +1,5 @@
 <template >
-  <div class="text-center py-4"><h3>ARE YOU STUDENT?</h3></div>
+  <div class="text-center py-4" id="footer"><h3>ARE YOU STUDENT?</h3></div>
   <div class="row main_row_2 pt-3">
     <div class="col-md-6 welcome2 pt-5 ps-5 pe-5">
       <p>

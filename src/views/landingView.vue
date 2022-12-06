@@ -1,8 +1,10 @@
 <template>
-  <navBar />
-  <getStarted />
-  <ourServices />
-  <footerView />
+  <div class="row">
+    <navBar />
+    <getStarted />
+    <ourServices />
+    <footerView />
+  </div>
 </template>
 
 <script>
