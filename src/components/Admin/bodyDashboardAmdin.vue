@@ -10,7 +10,7 @@
         </div>
         <div class="col-md-4 text-center p-5">
           <FIcons
-            class="rounded-pill h-100"
+            class="rounded-pill iconsize"
             :icon="['fas', 'person-shelter']"
           />
         </div>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-md-4 text-center p-5">
           <FIcons
-            class="rounded-pill h-100"
+            class="rounded-pill iconsize"
             :icon="['fas', 'person-shelter']"
           />
         </div>
@@ -32,7 +32,10 @@
 
     <div class="col-md-4 divtotal3 ms-4 mt-5 text-light text-center">
       <div class="row">
-        <FIcons class="rounded-pill icon3" :icon="['fas', 'person-shelter']" />
+        <FIcons
+          class="rounded-pill iconsize"
+          :icon="['fas', 'person-shelter']"
+        />
       </div>
       <div class="row">
         <h6 class="text-white-50 mt-5">Total Number of Students</h6>
@@ -56,7 +59,7 @@
   background-color: #0f3d3e;
   padding-top: 7rem;
 }
-.icon3 {
-  height: 5rem;
+.iconsize {
+  height: 2rem;
 }
 </style>

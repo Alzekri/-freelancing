@@ -60,8 +60,9 @@ export default {};
 <style scoped lang="scss">
 .mainDiv {
   background-color: #e2dcc8;
-  height: 100vh;
+  height: 100%;
 }
+
 .accountIcon {
   background-color: black;
   width: 3rem;
