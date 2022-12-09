@@ -1,19 +1,14 @@
 <template>
   <div class="maindiv">
     <NavBar />
-    <MyProjects />
-    <RequuestProject />
-    <ContactUs />
+    <div><router-view></router-view></div>
   </div>
 </template>
 <script>
 import NavBar from "../components/Nav/navBarClient.vue";
-import MyProjects from "@/components/Client/myProjects.vue";
-import RequuestProject from "@/components/Client/requestProject.vue";
-import ContactUs from "@/components/Client/contactUs.vue";
 
 export default {
-  components: { NavBar, ContactUs, MyProjects, RequuestProject },
+  components: { NavBar },
 };
 </script>
 <style scoped lang="scss">

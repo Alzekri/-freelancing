@@ -8,6 +8,10 @@ import loginForm from "../components/LoginAndSignup/loginForm.vue";
 import signupStudent from "../components/LoginAndSignup/signupStudent.vue";
 import signupClient from "../components/LoginAndSignup/signupClient.vue";
 import clientView from "../views/clientView.vue";
+import managerView from "../views/managerView.vue";
+import myProjects from "../components/Client/myProjects.vue";
+import requestProject from "../components/Client/requestProject.vue";
+import contactUs from "../components/Client/contactUs.vue";
 
 const routes = [
   //Landing
@@ -39,6 +43,17 @@ const routes = [
   {
     path: "/client",
     component: clientView,
+    children: [
+      { path: "projects", component: myProjects },
+      { path: "request", component: requestProject },
+      { path: "contact", component: contactUs },
+    ],
+  },
+
+  //Manager
+  {
+    path: "/manager",
+    component: managerView,
     children: [],
   },
 ];

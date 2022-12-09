@@ -18,22 +18,25 @@
         </button>
         <div class="collapse navbar-collapse" id="main">
           <ul class="navbar-nav col-6">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#services">
-                My Projects
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#footer">
-                Request Project
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#footer">
-                Contact Us
-              </a>
-            </li>
+            <router-link to="projects">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page"> My Projects </a>
+              </li>
+            </router-link>
+            <router-link to="request">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#footer">
+                  Request Project
+                </a>
+              </li></router-link
+            >
+            <router-link to="contact">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#footer">
+                  Contact Us
+                </a>
+              </li></router-link
+            >
           </ul>
 
           <div class="col-7 text-end">
@@ -60,7 +63,9 @@ h4 {
 .maindiv {
   margin-bottom: 5rem;
 }
-
+a {
+  text-decoration: none;
+}
 .navbar {
   background-color: black;
 

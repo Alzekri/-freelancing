@@ -114,6 +114,76 @@
             </button>
           </td>
         </tr>
+        <tr>
+          <th scope="row">userid</th>
+          <td>user.last_name</td>
+          <td>user.designation</td>
+
+          <td>
+            <button class="text-light btn btn-info mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+            </button>
+            <button class="text-lgiht btn btn-danger mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">userid</th>
+          <td>user.last_name</td>
+          <td>user.designation</td>
+
+          <td>
+            <button class="text-light btn btn-info mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+            </button>
+            <button class="text-lgiht btn btn-danger mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">userid</th>
+          <td>user.last_name</td>
+          <td>user.designation</td>
+
+          <td>
+            <button class="text-light btn btn-info mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+            </button>
+            <button class="text-lgiht btn btn-danger mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">userid</th>
+          <td>user.last_name</td>
+          <td>user.designation</td>
+
+          <td>
+            <button class="text-light btn btn-info mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+            </button>
+            <button class="text-lgiht btn btn-danger mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">userid</th>
+          <td>user.last_name</td>
+          <td>user.designation</td>
+
+          <td>
+            <button class="text-light btn btn-info mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+            </button>
+            <button class="text-lgiht btn btn-danger mx-1">
+              <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+            </button>
+          </td>
+        </tr>
       </tbody>
     </table>
   </div>

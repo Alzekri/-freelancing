@@ -16,7 +16,7 @@
     </div>
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
-        <router-link to="manager">
+        <router-link to="manager" exact>
           <base-button class="py-lg-3 pe-lg-5 mb-lg-5" mode="  ">
             <FIcons
               class="rounded-pill ms-3 me-4"
