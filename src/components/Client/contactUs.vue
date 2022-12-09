@@ -10,7 +10,7 @@
       </dt>
     </div>
     <div>
-      <form action="#" @click.prevent class="m-auto">
+      <form action="#" @click.prevent class="m-auto mb-3">
         <label class="ms-3 fw-bold mt">Problem</label>
         <textarea
           class="form-control ms-3"

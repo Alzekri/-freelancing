@@ -1,14 +1,15 @@
 <template>
-  <div class="mainDiv pt-5 ps-5 sticky-top">
+  <div class="mainDiv pt-5 ps-lg-5 sticky-top">
     <div class="row mb-5"><h4>LOGO</h4></div>
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
         <router-link to="dashboard">
-          <base-button class="py-3 pe-5" mode="">
+          <base-button class="py-lg-3 pe-lg-5" mode="">
             <FIcons
-              class="rounded-pill ms-2 me-4"
+              class="rounded-pill ms-lg-2 me-lg-4"
               :icon="['fas', 'gear']"
-            />Dashboard
+            />
+            Dashboard
           </base-button>
         </router-link>
       </div>
@@ -16,7 +17,7 @@
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-5">
         <router-link to="manager">
-          <base-button class="py-3 pe-5 px- mb-5" mode="  ">
+          <base-button class="py-lg-3 pe-lg-5 mb-lg-5" mode="  ">
             <FIcons
               class="rounded-pill ms-3 me-4"
               :icon="['fas', 'user-group']"
@@ -60,7 +61,7 @@ export default {};
 <style scoped lang="scss">
 .mainDiv {
   background-color: #e2dcc8;
-  height: 100%;
+  height: 100vh;
 }
 
 .accountIcon {
@@ -68,6 +69,6 @@ export default {};
   width: 3rem;
   height: 3rem;
   border-radius: 50px;
-  margin-left: 4.7rem;
+  margin-left: 27%;
 }
 </style>

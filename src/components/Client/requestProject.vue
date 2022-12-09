@@ -9,7 +9,7 @@
       </p>
     </div>
     <div>
-      <form action="#" class="m-auto">
+      <form action="#" class="m-auto mb-3">
         <label class="ms-3 fw-bold">Project title</label>
         <input
           type="text"
