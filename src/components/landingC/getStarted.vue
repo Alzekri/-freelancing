@@ -15,9 +15,7 @@
           :icon="['fas', 'arrow-right']"
       /></base-button>
     </div>
-    <div class="col-md-6 p-5 text-center">
-      <img src="@/assets/LandingImage1svg.svg" class="img-fluid" alt="" />
-    </div>
+    <div class="col-md-6 p-5 text-center">img</div>
   </div>
 </template>
     <script>
@@ -44,4 +42,3 @@ img {
   width: 30rem;
 }
 </style>
-    

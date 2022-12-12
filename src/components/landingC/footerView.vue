@@ -17,9 +17,7 @@
           :icon="['fas', 'arrow-right']"
       /></base-button>
     </div>
-    <div class="col-md-6 text-start">
-      <img src="@/assets/LandingImage4svg.svg" class="img ps-5" alt="" />
-    </div>
+    <div class="col-md-6 text-start">img</div>
   </div>
   <div class="row main_row_3 text-light text-center">
     <div class="col-md-3 text-start pt-5 pb-2">
@@ -62,7 +60,6 @@ img {
   height: 20rem;
 }
 .main_row_2 {
-  margin-right: 0;
   padding: 0rem 5rem;
   background-color: #f1f1f1;
 }
@@ -71,7 +68,6 @@ a {
   display: block;
 }
 .main_row_3 {
-  margin-right: 0;
   padding: 2rem;
   background-color: #100f0f;
 }
