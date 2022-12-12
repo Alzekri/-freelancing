@@ -10,7 +10,7 @@
   <div class="mb-4">
     <div class="row me-5 ms-1">
       <table class="table">
-        <thead class="text-center tablebody">
+        <thead class="text-center">
           <tr>
             <th scope="col">ID</th>
             <th scope="col">NAME</th>
@@ -23,7 +23,24 @@
         </thead>
 
         <tbody class="text-center">
-          <tr>
+          <tr class="tablebody">
+            <th scope="row">userid</th>
+            <td>user.last_name</td>
+            <td>user.designation</td>
+            <td>user.designation</td>
+            <td>user.designation</td>
+            <td>
+              <button class="text-light btn btn-info mx-1">
+                <FIcons class="rounded-pill" :icon="['fas', 'edit']" />
+              </button>
+              <button class="text-lgiht btn btn-danger mx-1">
+                <FIcons class="rounded-pill" :icon="['fas', 'trash']" />
+              </button>
+            </td>
+          </tr>
+          <div class="divhr"></div>
+
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -39,7 +56,9 @@
               </button>
             </td>
           </tr>
-          <tr>
+          <div class="divhr"></div>
+
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -74,6 +93,8 @@ export default {
   <style lang="scss" scoped>
 .tablebody {
   background-color: #e2dcc8;
-  margin-bottom: 2rem;
+}
+.divhr {
+  height: 10px;
 }
 </style>

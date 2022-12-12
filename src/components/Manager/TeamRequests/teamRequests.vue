@@ -18,7 +18,7 @@
     </dl>
     <div class="row me-5 ms-1">
       <table class="table">
-        <thead class="text-center tablebody">
+        <thead class="text-center">
           <tr>
             <th scope="col">ID</th>
             <th scope="col">NAME</th>
@@ -29,7 +29,7 @@
         </thead>
 
         <tbody class="text-center">
-          <tr>
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -43,7 +43,9 @@
               </button>
             </td>
           </tr>
-          <tr>
+          <div class="divhr"></div>
+
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -71,7 +73,7 @@
     </dl>
     <div class="row me-5 ms-1">
       <table class="table">
-        <thead class="text-center tablebody">
+        <thead class="text-center">
           <tr>
             <th scope="col">ID</th>
             <th scope="col">NAME</th>
@@ -82,7 +84,7 @@
         </thead>
 
         <tbody class="text-center">
-          <tr>
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -96,7 +98,9 @@
               </button>
             </td>
           </tr>
-          <tr>
+          <div class="divhr"></div>
+
+          <tr class="tablebody">
             <th scope="row">userid</th>
             <td>user.last_name</td>
             <td>user.designation</td>
@@ -128,6 +132,8 @@ export default {
 <style lang="scss" scoped>
 .tablebody {
   background-color: #e2dcc8;
-  margin-bottom: 2rem;
+}
+.divhr {
+  height: 10px;
 }
 </style>

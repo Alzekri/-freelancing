@@ -2,7 +2,7 @@
   <div class="row mainDiv">
     <div class="col-3"><SideBarManager /></div>
     <div class="col-9">
-      <RankInterview />
+      <TasksComponent />
 
       <div><router-view></router-view></div>
     </div>
@@ -10,12 +10,12 @@
 </template>
   <script>
 import SideBarManager from "../components/Nav/sideBarManager.vue";
-import RankInterview from "../components/Manager/RankInterview/rankInterview.vue";
+import TasksComponent from "../components/Manager/RoadMaps/roadMaps.vue";
 
 export default {
   components: {
     SideBarManager,
-    RankInterview,
+    TasksComponent,
   },
 };
 </script>

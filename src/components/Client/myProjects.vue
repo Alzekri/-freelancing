@@ -42,8 +42,8 @@
             <dd class="text-black-50">Unfinished</dd>
             <dt>Category</dt>
             <dd class="text-black-50 pt-2">
-              <span class="rounded-5 px-2 py-1 status">Web developement</span>
-              <span class="rounded-5 px-2 py-1 ms-2 status">UI/UX</span>
+              <span class="rounded-5 px-2 py-2 status">Web developement</span>
+              <span class="rounded-5 px-2 py-2 ms-2 status">UI/UX</span>
             </dd>
           </dl>
         </div>
@@ -129,8 +129,8 @@
             <dd class="text-black-50">Finished</dd>
             <dt>Category</dt>
             <dd class="text-black-50 pt-2">
-              <span class="rounded-5 px-2 py-1 status">Web developement</span>
-              <span class="rounded-5 px-2 py-1 ms-2 status">UI/UX</span>
+              <span class="rounded-5 px-2 py-2 status">Web developement</span>
+              <span class="rounded-5 px-2 py-2 ms-2 status">UI/UX</span>
             </dd>
           </dl>
         </div>
