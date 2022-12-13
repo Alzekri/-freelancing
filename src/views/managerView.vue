@@ -10,7 +10,7 @@
 </template>
   <script>
 import SideBarManager from "../components/Nav/sideBarManager.vue";
-import TasksComponent from "../components/Manager/RoadMaps/roadMaps.vue";
+import TasksComponent from "../components/Manager/SubmittedTasks/submittedTasks.vue";
 
 export default {
   components: {
