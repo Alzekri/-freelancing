@@ -12,7 +12,7 @@
         Lorem ipsum dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem
         ipsum dolor site Lorem ipsum dolor site Lorem ipsum dolor siteLorem site
       </p>
-      <base-button
+      <base-button class="mb-5"
         >Request Now
         <FIcons
           class="Ficons Ficons3 rounded-pill ms-2"
@@ -31,7 +31,7 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button mode="light"
+      <base-button mode="light" class="mb-2"
         >Request Now
         <FIcons
           class="Ficons Ficons3 rounded-pill ms-2"
@@ -54,7 +54,7 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button
+      <base-button class="mb-5"
         >Request Now
         <FIcons
           class="Ficons Ficons3 rounded-pill ms-2"

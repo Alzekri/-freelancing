@@ -10,7 +10,7 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button mode="dark"
+      <base-button mode="dark" class="mb-5"
         >Join us
         <FIcons
           class="Ficons Ficons3 rounded-pill ms-2"

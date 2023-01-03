@@ -45,19 +45,14 @@
       <div class="row mt-4">
         <span class="text-black-50 col-md-12 text-center">
           Don't have an account?
+
+          <router-link
+            to="signups"
+            class="col-md-7 text-end text-decoration-none ms-1"
+          >
+            <span class="span2">Sign up</span>
+          </router-link>
         </span>
-        <router-link
-          to="signups"
-          class="col-md-7 text-end text-decoration-none ms-1"
-        >
-          <span class="span2">Sign up as student </span>
-        </router-link>
-        <router-link
-          to="signupc"
-          class="col-md-4 text-start pe-5 text-decoration-none"
-        >
-          <span class="span2"> or client</span>
-        </router-link>
       </div>
     </form>
   </div>
@@ -81,7 +76,6 @@ form {
     border-radius: 0.9rem;
   }
   .span2 {
-    margin-left: -1.4rem;
     color: #063535;
   }
 }
