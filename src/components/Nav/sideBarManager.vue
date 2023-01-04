@@ -3,25 +3,25 @@
     <div class="row"><h4>LOGO</h4></div>
     <div class="row IconDashboard">
       <div class="col-12 text-start mt-3">
-        <router-link to="" exact>
+        <router-link to="projectRequests" exact>
           <a class="py-2 px-3">Projects requests </a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="approvedProjects">
           <a class="py-2 px-3"> Approved projects </a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="teamrequests">
           <a class="py-2 px-3"> Team requests</a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="tasks">
           <a class="py-2 px-3"> Tasks </a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="rank">
           <a class="py-2 px-3"> Rank interview </a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="submittedtask">
           <a class="py-2 px-3"> Submitted tasks </a>
         </router-link>
-        <router-link to="manager">
+        <router-link to="roadmaps">
           <a class="py-2 px-3 mb-5"> Roadmaps </a>
         </router-link>
       </div>
@@ -84,11 +84,16 @@ h4 {
   color: black;
   font-weight: bold;
 }
-a:hover,
-a:active {
+a:hover {
   color: white;
   background-color: black;
   border-radius: 1rem;
+}
+.router-link-active {
+  background-color: red;
+}
+.router-link-exact-active {
+  background-color: red;
 }
 </style>
   

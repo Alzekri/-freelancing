@@ -42,22 +42,10 @@
       <div class="d-grid">
         <button class="btn text-light mt-4 ms-5 fw-bold py-3">Sign in</button>
       </div>
-      <div class="row mt-4">
-        <span class="text-black-50 col-md-12 text-center">
-          Don't have an account?
-
-          <router-link
-            to="signups"
-            class="col-md-7 text-end text-decoration-none ms-1"
-          >
-            <span class="span2">Sign up</span>
-          </router-link>
-        </span>
-      </div>
     </form>
   </div>
 </template> 
-<style lang="scss" scoped>
+  <style lang="scss" scoped>
 form {
   max-width: 55%;
   p {
