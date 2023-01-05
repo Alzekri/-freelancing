@@ -42,11 +42,14 @@
           <div class="col-7 text-end">
             <h6>Logout</h6>
           </div>
+
           <div class="col-5 text-start">
-            <FIcons
-              class="rounded-pill"
-              :icon="['fas', 'right-from-bracket']"
-            />
+            <router-link to="login" class="text-decoration-none">
+              <FIcons
+                class="rounded-pill text-black-50"
+                :icon="['fas', 'right-from-bracket']"
+              />
+            </router-link>
           </div>
         </div>
       </div>

@@ -79,6 +79,13 @@ const routes = [
   },
 
   //Manager
+
+  //1-authintication
+  {
+    path: "/manager",
+    component: loginviewManager,
+    children: [{ path: "login", component: loginFormManager }],
+  },
   //2-routing
   {
     path: "/manager",
@@ -92,12 +99,6 @@ const routes = [
       { path: "tasks", component: tasksComponent },
       { path: "teamrequests", component: teamRequests },
     ],
-  },
-  //1-authintication
-  {
-    path: "/manager",
-    component: loginviewManager,
-    children: [{ path: "login", component: loginFormManager }],
   },
 
   //Student

@@ -43,10 +43,12 @@
             <h6>Logout</h6>
           </div>
           <div class="col-5 text-start">
-            <FIcons
-              class="rounded-pill"
-              :icon="['fas', 'right-from-bracket']"
-            />
+            <router-link to="login" class="text-decoration-none">
+              <FIcons
+                class="rounded-pill text-black-50"
+                :icon="['fas', 'right-from-bracket']"
+              />
+            </router-link>
           </div>
         </div>
       </div>
@@ -80,18 +82,15 @@ a {
     right: 3rem;
   }
 }
-
 a:hover {
   color: white;
-  background-color: black;
-  border-radius: 1rem;
 }
 .router-link-active {
   a {
     color: white;
+    background-color: black;
+    border-radius: 1rem;
   }
-  background-color: black;
-  border-radius: 1rem;
 }
 </style>
   

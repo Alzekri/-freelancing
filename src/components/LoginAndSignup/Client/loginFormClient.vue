@@ -39,9 +39,12 @@
           <p class="text-black-50 fw-bold">Forget Password</p>
         </div>
       </div>
-      <div class="d-grid">
-        <button class="btn text-light mt-4 ms-5 fw-bold py-3">Sign in</button>
-      </div>
+      <router-link to="projects" class="text-decoration-none">
+        <div class="d-grid">
+          <button class="btn text-light mt-4 ms-5 fw-bold py-3">Sign in</button>
+        </div>
+      </router-link>
+
       <div class="row mt-4">
         <span class="text-black-50 col-md-12 text-center">
           Don't have an account?

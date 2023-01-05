@@ -38,11 +38,15 @@
               </li></router-link
             >
           </ul>
-
           <div class="col-7 text-end">
-            <button class="btn btn-outline-light round px-3 py-1" type="submit">
-              Logout
-            </button>
+            <router-link to="login" class="text-decoration-none">
+              <button
+                class="btn btn-outline-light round px-3 py-1"
+                type="submit"
+              >
+                Logout
+              </button>
+            </router-link>
           </div>
         </div>
       </div>
