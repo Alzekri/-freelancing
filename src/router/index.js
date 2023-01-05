@@ -3,14 +3,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import landingView from "../views/landingView.vue";
 //Admin
 import loginviewAdmin from "../views/loginAndSignup/loginAndSignupAdmin.vue";
-import loginFormAdmin from "../components/LoginAndSignup/loginFormAdmin.vue";
+import loginFormAdmin from "../components/LoginAndSignup/Admin/loginFormAdmin.vue";
 import adminView from "../views/adminDashboard.vue";
 import bodyManagerAdmin from "../components/Admin/bodyManagerAdmin.vue";
 import bodyDashboardAmdin from "../components/Admin/bodyDashboardAmdin.vue";
 //Client
 import loginviewClient from "../views/loginAndSignup/loginAndSignupClient.vue";
-import loginFormClient from "../components/LoginAndSignup/loginFormClient.vue";
-import signupClient from "../components/LoginAndSignup/signupClient.vue";
+import loginFormClient from "../components/LoginAndSignup/Client/loginFormClient.vue";
+import signupClient from "../components/LoginAndSignup/Client/signupClient.vue";
 import clientView from "../views/clientView.vue";
 import myProjects from "../components/Client/myProjects.vue";
 import requestProject from "../components/Client/requestProject.vue";
@@ -18,7 +18,7 @@ import contactUs from "../components/Client/contactUs.vue";
 
 //Manager
 import loginviewManager from "../views/loginAndSignup/loginAndSignupManager.vue";
-import loginFormManager from "../components/LoginAndSignup/loginFormManager.vue";
+import loginFormManager from "../components/LoginAndSignup/Manager/loginFormManager.vue";
 import managerView from "../views/managerView.vue";
 import approvedProjects from "../components/Manager/ApprovedProjects/approvedProjects.vue";
 import projectRequests from "../components/Manager/ProjectRequests/projectRequests.vue";
@@ -29,8 +29,8 @@ import tasksComponent from "../components/Manager/Tasks/tasksComponent.vue";
 import teamRequests from "../components/Manager/TeamRequests/teamRequests.vue";
 //Student
 import loginviewStudent from "../views/loginAndSignup/loginAndSignupStudent.vue";
-import loginFormStudent from "../components/LoginAndSignup/loginFormStudent.vue";
-import signupStudent from "../components/LoginAndSignup/signupStudent.vue";
+import loginFormStudent from "../components/LoginAndSignup/Student/loginFormStudent.vue";
+import signupStudent from "../components/LoginAndSignup/Student/signupStudent.vue";
 const routes = [
   //Landing
   {
