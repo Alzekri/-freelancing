@@ -10,12 +10,13 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button mode="dark" class="mb-5"
-        >Join us
-        <FIcons
-          class="Ficons Ficons3 rounded-pill ms-2"
-          :icon="['fas', 'arrow-right']"
-      /></base-button>
+      <router-link to="student/login" class="text-decoration-none">
+        <base-button mode="dark" class="mb-5"
+          >Join us
+          <FIcons
+            class="Ficons Ficons3 rounded-pill ms-2"
+            :icon="['fas', 'arrow-right']" /></base-button
+      ></router-link>
     </div>
     <div class="col-md-6 text-start">img</div>
   </div>

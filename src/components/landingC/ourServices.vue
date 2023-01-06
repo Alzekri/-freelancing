@@ -12,12 +12,13 @@
         Lorem ipsum dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem
         ipsum dolor site Lorem ipsum dolor site Lorem ipsum dolor siteLorem site
       </p>
-      <base-button class="mb-5"
-        >Request Now
-        <FIcons
-          class="Ficons Ficons3 rounded-pill ms-2"
-          :icon="['fas', 'arrow-right']"
-      /></base-button>
+      <router-link to="client/login" class="text-decoration-none">
+        <base-button class="mb-5"
+          >Request Now
+          <FIcons
+            class="Ficons Ficons3 rounded-pill ms-2"
+            :icon="['fas', 'arrow-right']" /></base-button
+      ></router-link>
     </div>
   </div>
   <div class="row main_row_2 text-light">
@@ -31,12 +32,13 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button mode="light" class="mb-2"
-        >Request Now
-        <FIcons
-          class="Ficons Ficons3 rounded-pill ms-2"
-          :icon="['fas', 'arrow-right']"
-      /></base-button>
+      <router-link to="client/login" class="text-decoration-none">
+        <base-button mode="light" class="mb-2"
+          >Request Now
+          <FIcons
+            class="Ficons Ficons3 rounded-pill ms-2"
+            :icon="['fas', 'arrow-right']" /></base-button
+      ></router-link>
     </div>
     <div class="col-md-6 text-start">img</div>
   </div>
@@ -54,12 +56,13 @@
         dolor site Lorem ipsum dolor siteLorem ipsum dolor siteLorem ipsum dolor
         site
       </p>
-      <base-button class="mb-5"
-        >Request Now
-        <FIcons
-          class="Ficons Ficons3 rounded-pill ms-2"
-          :icon="['fas', 'arrow-right']"
-      /></base-button>
+      <router-link to="client/login" class="text-decoration-none">
+        <base-button class="mb-5"
+          >Request Now
+          <FIcons
+            class="Ficons Ficons3 rounded-pill ms-2"
+            :icon="['fas', 'arrow-right']" /></base-button
+      ></router-link>
     </div>
   </div>
 </template>
