@@ -11,7 +11,7 @@
         <div class="col-md-4 text-center p-5">
           <FIcons
             class="rounded-pill iconsize"
-            :icon="['fas', 'person-shelter']"
+            :icon="['fas', 'calendar-days']"
           />
         </div>
       </div>
@@ -21,10 +21,7 @@
           <h2>6 Managers</h2>
         </div>
         <div class="col-md-4 text-center p-5">
-          <FIcons
-            class="rounded-pill iconsize"
-            :icon="['fas', 'person-shelter']"
-          />
+          <FIcons class="rounded-pill iconsize" :icon="['fas', 'user-group']" />
         </div>
       </div>
     </div>
@@ -34,7 +31,7 @@
       <div class="row">
         <FIcons
           class="rounded-pill iconsize"
-          :icon="['fas', 'person-shelter']"
+          :icon="['fas', 'graduation-cap']"
         />
       </div>
       <div class="row">

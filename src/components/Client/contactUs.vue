@@ -11,18 +11,15 @@
     </div>
     <div>
       <form action="#" @click.prevent class="m-auto mb-3">
-        <label class="ms-3 fw-bold mt">Problem</label>
+        <label class="ms-3 fw-bold mb-2">Problem</label>
         <textarea
           class="form-control ms-3"
           rows="7"
           id=""
           placeholder="Describe your problem"
         ></textarea>
-        <div class="d-grid ms-4">
-          <base-button
-            class="mt-3 fw-bold py-3 ms-5 me-4"
-            @click="isAdd = !isAdd"
-          >
+        <div class="d-grid ms-4 ps-1">
+          <base-button class="mt-3 fw-bold py-2" @click="isAdd = !isAdd">
             Send
           </base-button>
         </div>
@@ -81,7 +78,7 @@ label {
   left: 0;
   width: 32%;
   background-color: rgb(255 255 255 / 100%);
-  border: 4px solid rgb(245, 244, 244);
+  border: 4px solid rgb(205, 201, 201);
   border-radius: 10px;
 }
 </style>

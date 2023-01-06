@@ -18,19 +18,16 @@
           placeholder="Enter project title"
           name="Email"
         />
-        <label class="ms-3 fw-bold mt-2">Description</label>
+        <label class="ms-3 fw-bold mt-3 mb-2">Description</label>
         <textarea
           class="form-control ms-3"
           rows="7"
           id=""
           placeholder="Describe what you want in your project"
         ></textarea>
-        <div class="d-grid ms-4">
-          <base-button
-            class="mt-3 fw-bold py-3 ms-5 me-4"
-            @click="isAdd = !isAdd"
-          >
-            Send
+        <div class="d-grid ms-4 ps-1">
+          <base-button class="mt-3 fw-bold py-2" @click="isAdd = !isAdd">
+            Send Request
           </base-button>
         </div>
       </form>
@@ -88,7 +85,7 @@ label {
   left: 0;
   width: 32%;
   background-color: rgb(255 255 255 / 100%);
-  border: 4px solid rgb(245, 244, 244);
+  border: 4px solid rgb(205, 201, 201);
   border-radius: 10px;
 }
 </style>

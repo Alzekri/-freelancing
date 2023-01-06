@@ -29,7 +29,7 @@
       >
         <img src="@/assets/pic9_client.svg" class="imgchoose mb-2" />
 
-        <h4 class="text-start my-3 mt-5 fw-bold text-light">Client</h4>
+        <h4 class="text-start my-4 mt-5 fw-bold text-light">Client</h4>
         <p class="text-start text-light">
           Your main goal is to request project and wait for managers to approve
           it, and after project is completed you can rete the development team.

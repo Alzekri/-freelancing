@@ -13,7 +13,7 @@
     <div class="modal-content">
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title fw-bold me-5 ms-4">Add New Manager</h4>
+        <h3 class="modal-title fw-bold me-5 ms-4 mb-2">Add New Manager</h3>
         <button
           type="button"
           class="btn-close ms-5"
@@ -26,40 +26,40 @@
       <div class="modal-body">
         <form action="#">
           <div class="mx-4">
-            <label class="fw-bold m-2">Email</label>
+            <label class="fw-bold my-2 mt-4">Email</label>
             <input
               type="text"
-              class="form-control"
+              class="form-control rounded-3"
               id="email"
               placeholder="Enter Your Email"
               name="Email"
             />
           </div>
           <div class="mx-4">
-            <label class="fw-bold m-2">Password</label>
+            <label class="fw-bold my-2 mt-4">Password</label>
             <input
               type="password"
-              class="form-control"
+              class="form-control rounded-3"
               id="password"
               placeholder="Enter Your Password"
               name="password"
             />
           </div>
           <div class="mx-4">
-            <label class="fw-bold m-2">Confirm Password</label>
+            <label class="fw-bold my-2 mt-4">Confirm Password</label>
             <input
               type="password"
-              class="form-control"
+              class="form-control rounded-3"
               id="confirm_password"
               placeholder="Enter Your Password"
               name="confirm_password"
             />
           </div>
           <div class="mx-4">
-            <label class="fw-bold mt-4 m-3">Select Role</label>
+            <label class="fw-bold my-3">Select Role</label>
           </div>
 
-          <div class="ms-5">
+          <div class="ms-4">
             <div class="form-check">
               <input
                 class="form-check-input"

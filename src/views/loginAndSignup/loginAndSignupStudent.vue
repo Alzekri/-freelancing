@@ -2,7 +2,7 @@
   <div class="row me-0">
     <div class="col-md-7"><router-view></router-view></div>
     <div class="col-md-5 col-img">
-      <img src="../../assets/LandingImage1svg.svg" alt="" />
+      <img src="../../assets/pic6_login_man.svg" alt="" />
     </div>
   </div>
 </template>

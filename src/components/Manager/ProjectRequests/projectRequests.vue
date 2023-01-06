@@ -1,7 +1,6 @@
 <template>
   <div class="row">
     <NavBarManager />
-    <CreateProjec />
   </div>
   <class class="row d-flex justify-content-around">
     <div class="col-md-5 mb-4">
@@ -22,7 +21,9 @@
           </dd>
           <div class="row mt-5 d-flex justify-content-around">
             <div class="col-5">
-              <button class="btn status rounded-3 px-5 fw-bold">Accept</button>
+              <button class="btn accepted rounded-3 px-5 fw-bold">
+                Accept
+              </button>
             </div>
             <div class="col-5">
               <button class="btn btn-danger rounded-3 px-5 fw-bold">
@@ -51,7 +52,9 @@
           </dd>
           <div class="row mt-5 d-flex justify-content-around">
             <div class="col-5">
-              <button class="btn status rounded-3 px-5 fw-bold">Accept</button>
+              <button class="btn accepted rounded-3 px-5 fw-bold">
+                Accept
+              </button>
             </div>
             <div class="col-5">
               <button class="btn btn-danger rounded-3 px-5 fw-bold">
@@ -80,7 +83,9 @@
           </dd>
           <div class="row mt-5 d-flex justify-content-around">
             <div class="col-5">
-              <button class="btn status rounded-3 px-5 fw-bold">Accept</button>
+              <button class="btn accepted rounded-3 px-5 fw-bold">
+                Accept
+              </button>
             </div>
             <div class="col-5">
               <button class="btn btn-danger rounded-3 px-5 fw-bold">
@@ -109,7 +114,9 @@
           </dd>
           <div class="row mt-5 d-flex justify-content-around">
             <div class="col-5">
-              <button class="btn status rounded-3 px-5 fw-bold">Accept</button>
+              <button class="btn accepted rounded-3 px-5 fw-bold">
+                Accept
+              </button>
             </div>
             <div class="col-5">
               <button class="btn btn-danger rounded-3 px-5 fw-bold">
@@ -125,11 +132,9 @@
        
 <script>
 import NavBarManager from "@/components/Nav/navBarManager.vue";
-import CreateProjec from "./createProject.vue";
 export default {
   components: {
     NavBarManager,
-    CreateProjec,
   },
 };
 </script>
@@ -139,6 +144,12 @@ export default {
   color: #0f3d3e;
 }
 .status {
+  background-color: #0f3d3e;
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.accepted {
   background-color: #0f3d3e;
   color: white;
 }

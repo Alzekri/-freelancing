@@ -41,7 +41,7 @@
           </div>
           <div class="row mt-4">
             <div class="col-md-7 ms-4">
-              <button class="w-100 btn status rounded-3 px-5 py-2 fw-bold">
+              <button class="w-100 btn accepted rounded-3 px-5 py-2 fw-bold">
                 Publish
               </button>
             </div>
@@ -91,7 +91,7 @@
           </div>
           <div class="row mt-4">
             <div class="col-md-7 ms-4">
-              <button class="w-100 btn status rounded-3 px-5 py-2 fw-bold">
+              <button class="w-100 btn accepted rounded-3 px-5 py-2 fw-bold">
                 Publish
               </button>
             </div>
@@ -187,7 +187,7 @@
             </div>
           </div>
           <div class="mt-4 text-center">
-            <button class="w-75 btn status rounded-3 px-5 py-2 fw-bold">
+            <button class="w-75 btn accepted rounded-3 px-5 py-2 fw-bold">
               Update status
             </button>
           </div>
@@ -210,7 +210,14 @@ export default {
   background-color: #e2dcc8;
   color: #0f3d3e;
 }
+
 .status {
+  background-color: #0f3d3e;
+  color: white;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.accepted {
   background-color: #0f3d3e;
   color: white;
 }

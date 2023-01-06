@@ -198,6 +198,8 @@
 .status {
   background-color: #0f3d3e;
   color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
 }
 img {
   height: 5rem;
