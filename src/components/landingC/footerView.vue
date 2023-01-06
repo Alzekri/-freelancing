@@ -18,7 +18,9 @@
             :icon="['fas', 'arrow-right']" /></base-button
       ></router-link>
     </div>
-    <div class="col-md-6 text-start">img</div>
+    <div class="col-md-6 text-start">
+      <img src="@/assets/pic5_join_us.svg" alt="" />
+    </div>
   </div>
   <div class="row main_row_3 text-light text-center">
     <div class="col-md-3 text-start pt-5 pb-2">

@@ -2,8 +2,8 @@
   <div class="text-center py-4" id="services"><h3>OUR SERVICES</h3></div>
 
   <div class="row main_row_1">
-    <div class="col-md-6 pt-5 pe-5">
-      <div class="pe-5">img</div>
+    <div class="col-md-6 py-3 web">
+      <img src="@/assets/pic2_web_services.svg" alt="" />
     </div>
     <div class="col-md-6 welcome1 pt-5 pe-5">
       <h3 class="pt-5">WEB DEVELOPMENT</h3>
@@ -40,10 +40,14 @@
             :icon="['fas', 'arrow-right']" /></base-button
       ></router-link>
     </div>
-    <div class="col-md-6 text-start">img</div>
+    <div class="col-md-6 text-start">
+      <img src="@/assets/pic3_ui-ux_services.svg" alt="" />
+    </div>
   </div>
   <div class="row main_row_3 text-light">
-    <div class="col-md-6 pe-5 py-5">img</div>
+    <div class="col-md-6 pe-5 py-5 security">
+      <img src="@/assets/pic4_security_services.svg" alt="" />
+    </div>
 
     <div class="col-md-6 welcome1 pt-5 pe-5">
       <h3 class="pt-5">WEB SECUROTY</h3>
@@ -75,6 +79,10 @@ export default {
 img {
   height: 20rem;
   width: 30rem;
+}
+.web,
+.security {
+  padding-right: 20%;
 }
 .main_row_1 {
   background-color: #e2dcc8;

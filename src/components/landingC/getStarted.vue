@@ -8,14 +8,17 @@
         ipsum dolor site Lorem ipsum dolor site Lorem ipsum dolor siteLorem
         ipsum dolor
       </p>
-      <base-button
-        >Get Started
-        <FIcons
-          class="Ficons Ficons3 rounded-pill ms-2"
-          :icon="['fas', 'arrow-right']"
-      /></base-button>
+      <router-link to="choose" class="text-decoration-none">
+        <base-button
+          >Get Started
+          <FIcons
+            class="Ficons Ficons3 rounded-pill ms-2"
+            :icon="['fas', 'arrow-right']" /></base-button
+      ></router-link>
     </div>
-    <div class="col-md-6 p-5 text-center">img</div>
+    <div class="col-md-6 pt-3">
+      <img src="@/assets/pic1_hero_section.svg" alt="" />
+    </div>
   </div>
 </template>
     <script>

@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 //LandingPage
 import landingView from "../views/landingView.vue";
+//ChooseUser
+import chooseUser from "../views/loginAndSignup/chooseUser.vue";
 //Admin
 import loginviewAdmin from "../views/loginAndSignup/loginAndSignupAdmin.vue";
 import loginFormAdmin from "../components/LoginAndSignup/Admin/loginFormAdmin.vue";
@@ -38,6 +40,9 @@ const routes = [
     name: "langingView",
     component: landingView,
   },
+
+  //Choose User
+  { path: "/choose", component: chooseUser },
 
   //Admin
   //1-authintication

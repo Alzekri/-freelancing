@@ -32,9 +32,14 @@
           </ul>
 
           <div class="col-9 text-end">
-            <button class="btn btn-outline-light round px-3 py-1" type="submit">
-              Login
-            </button>
+            <router-link to="choose" class="text-decoration-none">
+              <button
+                class="btn btn-outline-light round px-3 py-1"
+                type="submit"
+              >
+                Login
+              </button>
+            </router-link>
           </div>
         </div>
       </div>
