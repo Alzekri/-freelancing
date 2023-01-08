@@ -1,7 +1,7 @@
 <template>
   <div class="row me-0">
     <div class="text-center">
-      <img src="@/assets/LandingImage1svg.svg" class="me-5 mx-5" alt="" />
+      <img src="@/assets/pic10_request_project.svg" class="me-5 mx-5" alt="" />
       <h1>Request your project now</h1>
       <p class="text-black-50 mx-5">
         Enter project title and briefly describe the requirements and the

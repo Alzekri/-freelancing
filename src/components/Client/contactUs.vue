@@ -1,7 +1,7 @@
 <template>
   <div class="row me-0">
     <div class="text-center">
-      <img src="@/assets/LandingImage1svg.svg" class="me-5 mx-5" alt="" />
+      <img src="@/assets/pic10_request_project.svg" class="me-5 mx-5" alt="" />
       <dt>
         <h1>Contact us now I need help</h1>
         <dl class="text-black-50 mx-5">
